@@ -1,0 +1,18 @@
+# Environment variables
+.env
+.env.*
+*.env
+
+# Local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Optional: ignore config files that may contain secrets
+config/*.env
+
+# Node / Python virtual envs (optional but useful)
+node_modules/
+venv/
+.envrc
